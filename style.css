@@ -1,0 +1,87 @@
+/* Reset some basic elements for consistency */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styling */
+main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Form styling */
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
